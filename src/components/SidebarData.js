@@ -6,86 +6,127 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
   {
-    title: 'Overview',
-    path: '/overview',
-    icon: <AiIcons.AiFillHome />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: 'Users',
-        path: '/overview/users',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Revenue',
-        path: '/overview/revenue',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
+    title: 'Visit',
+    path: '/visit',
+    icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Reports',
-    path: '/reports',
+    title: 'SD',
+    path: '/sd',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
       {
-        title: 'Reports',
-        path: '/reports/reports1',
+        title: 'Mapel',
+        path: '/sd/mapel',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
-      {
-        title: 'Reports 2',
-        path: '/reports/reports2',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Reports 3',
-        path: '/reports/reports3',
-        icon: <IoIcons.IoIosPaper />
-      }
+      // {
+      //   title: 'BI',
+      //   path: '/sd/bi',
+      //   icon: <IoIcons.IoIosPaper />,
+      //   cName: 'sub-nav'
+      // },
+      // {
+      //   title: 'IPA',
+      //   path: '/sd/ipa',
+      //   icon: <IoIcons.IoIosPaper />
+      // }
     ]
   },
   {
-    title: 'Products',
-    path: '/products',
-    icon: <FaIcons.FaCartPlus />
-  },
-  {
-    title: 'Team',
-    path: '/team',
-    icon: <IoIcons.IoMdPeople />
-  },
-  {
-    title: 'Messages',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
-
+    title: 'SMP',
+    path: '/smp',
+    icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
       {
-        title: 'Message 1',
-        path: '/messages/message1',
-        icon: <IoIcons.IoIosPaper />
+        title: 'Mapel',
+        path: '/smp/mapel',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
       },
-      {
-        title: 'Message 2',
-        path: '/messages/message2',
-        icon: <IoIcons.IoIosPaper />
-      }
+      // {
+      //   title: 'BI',
+      //   path: '/smp/bi',
+      //   icon: <IoIcons.IoIosPaper />,
+      //   cName: 'sub-nav'
+      // },
+      // {
+      //   title: 'IPA',
+      //   path: '/smp/ipa',
+      //   icon: <IoIcons.IoIosPaper />
+      // }
     ]
   },
   {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />
-  }
+    title: 'SMA',
+    path: '/sma',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'Mapel',
+        path: '/sma/mapel',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      // {
+      //   title: 'BI',
+      //   path: '/sma/bi',
+      //   icon: <IoIcons.IoIosPaper />,
+      //   cName: 'sub-nav'
+      // },
+      // {
+      //   title: 'IPA',
+      //   path: '/sma/ipa',
+      //   icon: <IoIcons.IoIosPaper />
+      // }
+    ]
+  },
+  {
+    title: 'Fitur',
+    path: '/fitur',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'Data',
+        path: '/fitur/data',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      // {
+      //   title: 'Random topic',
+      //   path: '/fitur/random-topic',
+      //   icon: <IoIcons.IoIosPaper />,
+      //   cName: 'sub-nav'
+      // },
+      // {
+      //   title: 'Search',
+      //   path: '/fitur/search',
+      //   icon: <IoIcons.IoIosPaper />
+      // },
+      // {
+      //   title: 'FAQ',
+      //   path: '/fitur/faq',
+      //   icon: <IoIcons.IoIosPaper />
+      // }
+    ]
+  },
+  
+  // {
+  //   title: 'Support',
+  //   path: '/support',
+  //   icon: <IoIcons.IoMdHelpCircle />
+  // }
 ];
